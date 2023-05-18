@@ -14,11 +14,11 @@
 }
 
 body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Myriad Pro", sans-serif;
 }
 
 i {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Myriad Pro Italic", sans-serif;
 }
 
 body {
@@ -83,6 +83,7 @@ h4 {
 
 /* 영어 문장 */
 .eng-sent {
+    font-family: "Times New Roman", Times, serif;
     /* padding-left: 0px; */
     transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과를 부드럽게 적용하기 위한 설정 */
     color: rgb(0, 112, 192);
