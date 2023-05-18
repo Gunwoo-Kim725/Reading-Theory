@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "Myriad Pro Light"; /* 폰트 패밀리 이름 */
-    src: url("./MyriadPro-Light.otf") format("opentype");
+    font-family: "Myriad Pro"; /* 폰트 패밀리 이름 */
+    src: url("./MyriadPro-Regular.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Myriad Pro Light Italic"; /* 폰트 패밀리 이름 */
-    src: url("./MyriadPro-LightIt.otf") format("opentype");
+    font-family: "Myriad Pro Italic"; /* 폰트 패밀리 이름 */
+    src: url("./MyriadPro-It.otf") format("opentype");
 }
 
 @font-face {
@@ -14,11 +14,11 @@
 }
 
 body {
-    font-family: "Myriad Pro Light", sans-serif;
+    font-family: "Myriad Pro", sans-serif;
 }
 
 i {
-    font-family: "Myriad Pro Light Italic", sans-serif;
+    font-family: "Myriad Pro Italic", sans-serif;
 }
 
 body {
