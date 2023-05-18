@@ -103,23 +103,6 @@ h4 {
     padding: 0px;
 }
 
-.gk-link {
-    padding: 0px;
-    text-align: center;
-    transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과를 부드럽게 적용하기 위한 설정 */
-    font-family: Open Sans;
-    font-size: 50px;
-}
-
-.gk-link:hover {
-    /* 원하는 마우스 커서 스타일을 설정하세요 */
-    cursor: pointer;
-    /* 마우스를 올렸을 때의 배경색 */
-    background-color: rgb(0, 112, 192);
-    /* 마우스를 올렸을 때의 글자색 */
-    color: rgb(255, 255, 255);
-}
-
 a {
     display: block;
     padding: 20px;
@@ -147,6 +130,10 @@ table {
     margin-bottom: 20px;
 }
 
+.normal {
+    font-size: 20px;
+}
+
 td,
 th {
     padding: 10px 20px;
@@ -157,6 +144,22 @@ th {
     border-color: rgb(233, 233, 233);
 }
 
+.gk-link {
+    padding: 0px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과를 부드럽게 적용하기 위한 설정 */
+    font-family: Open Sans;
+    font-size: 35px;
+}
+
+.gk-link:hover {
+    /* 원하는 마우스 커서 스타일을 설정하세요 */
+    cursor: pointer;
+    /* 마우스를 올렸을 때의 배경색 */
+    background-color: rgb(0, 112, 192);
+    /* 마우스를 올렸을 때의 글자색 */
+    color: rgb(255, 255, 255);
+}
 /* 메뉴바 --------------------------------------------------------------------------- */
 .menu {
     position: fixed;
